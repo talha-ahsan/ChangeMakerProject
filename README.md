@@ -4,8 +4,9 @@ ChangeMakerProject
 Git for the ARC Change Maker Project
 =========================================
 
-We need to create webpages for each of these sections from the PDF file we were given: 
-/ The Challenge
+We need to create webpages for each of these sections from the PDF file we were given:
+Item:                           Status:
+/ The Challenge                 Web page started
 
 / The Problem 
 
