@@ -2,6 +2,10 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 #logo{
     height: 170px;
     width: 170px;
@@ -20,7 +24,7 @@
 .name{
     display: inline;
     position: fixed;
-    top: 50px;
+    top: 70px;
     left: 210px;
 }
 
