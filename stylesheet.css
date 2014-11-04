@@ -5,41 +5,41 @@ a {
 
 #logo{
     height: 170px;
-    width: 170px;
+    width: 200px;
     margin: 0 0 0 0;
 }
 
+.languages {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding-bottom: 20px;
+}
 
 #ARCLogo {
     height: 70px;
     width: 160px;
-    position: fixed;
-    top: 55px;
-    right: 20px;
+    position: absolute;
+    top: 65px;
+    right: 30px;
 }
 
 .name{
     display: inline;
-    position: fixed;
+    position: absolute;
     top: 70px;
-    left: 210px;
+    left: 240px;
+    font-family: 'Georgia', serif;
 }
 
 .nav-main div {
     display: inline;
-    padding: 15px 10px 15px 10px;
+    padding: 12px 30px 12px 30px;
     background-color: darkgreen;
     border-left: solid black 1px;
     font-size: 25px;
     color: white;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-.languages {
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    padding-bottom: 20px;
+    font-family: 'Georgia', serif;
 }
 
 .header {
@@ -47,20 +47,26 @@ a {
 }
 
 .nav-main {
-    background-color: darkgreen;
+    text-align: center;
 }
 
 .OurPartners{
-    border-right: solid black 1px;
+    /* border-right: solid black 1px; */
 }
 
 .JoinUs {
     background-color: mediumseagreen !important;
     border-left: none;
     border-right: solid black 1px;
-    float: right;
+    /* float: right; */
 }
 
 .OurStory {
     border-left: none;
+}
+
+.feasibility {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
