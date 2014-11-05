@@ -4,7 +4,8 @@ a {
 }
 
 body {
-    font-family: 'Georgia', serif;
+    /* font-family: 'Georgia', serif; */
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;;
 }
 
 .actualBody {
@@ -63,7 +64,7 @@ body {
 }
 
 .JoinUs {
-    background-color: mediumseagreen !important;
+    background-color: #d65341 !important;
     border-left: none;
     border-right: solid black 1px;
     /* float: right; */
