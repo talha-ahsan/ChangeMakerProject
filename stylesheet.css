@@ -3,10 +3,18 @@ a {
     color: white;
 }
 
+body {
+    font-family: 'Georgia', serif;
+}
+
+.actualBody {
+    margin: 0 50px 0 50px;
+}
+
 #logo{
     height: 170px;
     width: 200px;
-    margin: 0 0 0 0;
+    margin: 0 0 0 0 !important;
 }
 
 .languages {
@@ -69,4 +77,9 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left: 30px;
 }
