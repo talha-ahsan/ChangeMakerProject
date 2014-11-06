@@ -85,3 +85,32 @@ h2 {
     padding-left: 30px;
     padding-bottom: 20px;
 }
+
+#PeanutButterProject {
+    width: 230px;
+    height: 230px;
+}
+
+#Unicef {
+    width: 236px;
+    height: 220px;
+}
+
+#HIF {
+    width: 295px;
+    height: 157px;
+}
+
+#LivingGoods {
+    width: 250px;
+    height: 195px;
+}
+
+#LEAP {
+    width: 245px;
+    height: 183px;
+}
+
+.partners {
+    text-align: center;
+}
