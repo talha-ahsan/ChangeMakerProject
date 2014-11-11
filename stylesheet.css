@@ -4,7 +4,6 @@ a {
 }
 
 body {
-    /* font-family: 'Georgia', serif; */
     font-family: Verdana, Tahoma, Helvetica, sans-serif;;
 }
 
@@ -41,33 +40,8 @@ body {
     font-family: 'Georgia', serif;
 }
 
-.nav-main div {
-    display: inline;
-    padding: 12px 30px 12px 30px;
-    background-color: darkgreen;
-    border-left: solid black 1px;
-    font-size: 25px;
-    color: white;
-    font-family: 'Georgia', serif;
-}
-
 .header {
     padding: 10px 10px 10px 10px;
-}
-
-.nav-main {
-    text-align: center;
-}
-
-.OurPartners{
-    /* border-right: solid black 1px; */
-}
-
-.JoinUs {
-    background-color: #d65341 !important;
-    border-left: none;
-    border-right: solid black 1px;
-    /* float: right; */
 }
 
 .OurStory {
@@ -77,10 +51,11 @@ body {
 .feasibility {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 h2 {
+    margin-top: 40px;
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 20px;
@@ -114,3 +89,54 @@ h2 {
 .partners {
     text-align: center;
 }
+
+.nav-main div {
+    text-align: center;
+    /*width: 100px;*/
+    line-height: 21px;
+    display: inline;
+    padding: 12px 30px 12px 30px;
+    background-color: darkgreen;
+    border-left: solid black 1px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+
+.nav-main {
+    /*padding: 0;*/
+    list-style: none;
+}
+
+.nav-main div a{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-main div a:hover {
+    color: white;
+    background: #3e7733;
+}
+
+.nav-main div ul {
+    /*list-style: none;*/
+    display: none;
+}
+
+.nav-main div:hover ul {
+    display: block;
+}
+
+.JoinUs {
+    background-color: #d65341 !important;
+    border-left: none;
+    border-right: solid black 1px;
+    /* float: right; */
+}
+
+.navigation {
+    text-align: center;
+}
+
