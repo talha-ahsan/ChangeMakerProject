@@ -3,9 +3,128 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-    <title> Helim Changemaker Project </title>
+    <title>Helim Changemaker Project</title>
+    <style type="text/css">
+        #hero {
+            width: 960px;
+            height: 500px;
+            display: block;
+            position: relative;
+            margin: auto;
+        }
+        #slider {
+            width: 960px;
+            height: 500px;
+            display: block;
+            position: absolute;
+            overflow: hidden;
+        }
+        .info {
+            width: 960px;
+            height: 80px;
+            display: block;
+            position: relative;
+            bottom: 120px;
+            background: #3e7733;
+            z-index: 99;
+        }
+        .info h2 {
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            padding: 15px 0 0 20px;
+        }
+        .info p {
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: lighter;
+            color: #ffffff;
+            padding: 0 0 0 20px;
+            line-height: 1px;
+        }
+        #play {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 44px;
+            background: #3e7733;
+            color: #ffffff;
+            cursor: pointer;
+            z-index: 999;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+        }
+        #pause {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 88px;
+            background: #3e7733;
+            color: #ffffff;
+            cursor: pointer;
+            z-index: 999;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+        }
+        #next {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #3e7733;
+            color: #ffffff;
+            cursor: pointer;
+            z-index: 999;
+        }
+        #prev {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 132px;
+            background: #3e7733;
+            color: #ffffff;
+            cursor: pointer;
+            z-index: 999;
+        }
+        #pager {
+            width: 100%;
+            text-align: center;
+            display: block;
+            position: absolute;
+            cursor: pointer;
+            z-index: 999;
+        }
+        #pager a {
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            position: relative;
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            background: #ffffff;
+        }
+    </style>
+
 </head>
 <body>
+
     <header class="header">
         <div class="logo">
             <a href="Home.html">
@@ -25,28 +144,64 @@
             <img src="Images/ARC%20Logo.jpg" id="ARCLogo">
         </a>
     </header>
-    <nav class="navigation">
-        <div class="container">
-            <div class="nav">
-                <div class="nav-main">
-                    <div class="OurStory">
-                        <a href="Joint%20Our%20Story.html"> Our Story </a>
+
+    <ul class="navigation">
+        <li>
+            <a href="Joint%20Our%20Story.html"> Our Story </a></li>
+        <li> Innovation
+            <ul>
+                <li> The Solution </li>
+                <li> The Innovation </li>
+                <li> Impact </li>
+            </ul>
+        </li>
+        <li> The Steps
+            <ul>
+                <li> Feasibility </li>
+                <li> Funding Structure </li>
+                <li> Startup Funding </li>
+                <li> Investment </li>
+                <li> Sustainability & Scalability </li>
+                <li> Management Structure </li>
+                <li> Implementation </li>
+            </ul>
+        </li>
+        <li> Our Partners </li>
+        <li class="JoinUs"> JOIN US </li>
+    </ul>
+
+    <div id="hero">
+
+        <div id="pager"></div>
+        <div id="pause">&asymp;</div>
+        <div id="play">&Delta;</div>
+        <div id="next">&rang;</div>
+        <div id="prev">&lang;</div>
+
+        <div id="slider">
+            <div class="items">
+                <img src="Images/ImageSlider1.jpg">
+                    <div class="info">
+                        <h2> Something Something Something </h2>
+                        <p> blah blah blah <a href="Joint%20Our%20Story.html"> Learn More </a> </p>
                     </div>
-                    <div class="Innovation">
-                        <a href="The%20Solution.html"> Innovation </a>
-                    </div>
-                    <div class="TheSteps">
-                        <a href="Feasibility.html"> The Steps </a>
-                    </div>
-                    <div class="OurPartners">
-                        <a href="Our%20Partners.html"> Our Partners </a>
-                    </div>
-                    <div class="JoinUs">
-                        <a href="Join%20Us.html"> JOIN US </a>
-                    </div>
+            </div>
+            <div class="items">
+                <img src="Images/ImageSlider2.jpg">
+                <div class="info">
+                    <h2> Something Something Something </h2>
+                    <p> blah blah blah <a href="Joint%20Our%20Story.html"> Learn More </a> </p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="Images/ImageSlider3.jpg">
+                <div class="info">
+                    <h2> Something Something Something </h2>
+                    <p> blah blah blah <a href="Joint%20Our%20Story.html"> Learn More </a> </p>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+
 </body>
 </html>
