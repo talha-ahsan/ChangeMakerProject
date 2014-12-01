@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <title>Helim Changemaker Project</title>
+
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+
+            $('#play').click(function() { $('#slider').cycle('resume'); return false; });
+            $('#pause').click(function() { $('#slider').cycle('pause'); return false; });
+
+        $('#slider').cycle({
+
+            fx:         'scrollHorz',
+            next:       '#next',
+            prev:       '#prev',
+            pager:      '#pager',
+            timeout:    3000,
+            speed:      900
+
+        });
+    });
+
+    </script>
+
     <style type="text/css">
         #hero {
             width: 960px;
@@ -11,6 +35,7 @@
             display: block;
             position: relative;
             margin: auto;
+            top: 210px;
         }
         #slider {
             width: 960px;
@@ -112,14 +137,18 @@
             z-index: 999;
         }
         #pager a {
+            font-size: .0em;
+            color: transparent;
             width: 10px;
             height: 10px;
             display: inline-block;
             position: relative;
             border: 1px solid #ffffff;
             border-radius: 20px;
-            background: #ffffff;
+            background: transparent;
+            margin: 10px;
         }
+        #pager a.activeSlide {background: #ffffff;}
     </style>
 
 </head>
@@ -173,10 +202,10 @@
     <div id="hero">
 
         <div id="pager"></div>
-        <div id="pause">&asymp;</div>
+        <div id="pause"> = </div>
         <div id="play">&Delta;</div>
-        <div id="next">&rang;</div>
-        <div id="prev">&lang;</div>
+        <div id="next"> > </div>
+        <div id="prev"> < </div>
 
         <div id="slider">
             <div class="items">
