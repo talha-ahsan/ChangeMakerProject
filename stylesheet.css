@@ -183,7 +183,11 @@ h2 {
     height: 500px;
 }
 
-.actualBody h2, p, ul, li, h3, h4, h5, h6 {
+.actualBody p, li {
+    text-align: justify;
+}
+
+.actualBody h2, ul, h3, h4, h5, h6 {
     text-align: left;
 }
 
@@ -203,6 +207,10 @@ h2 {
     width: 100%;
 }
 
-.Sustainability {
+.SustainableImage {
+    width: 100%;
+}
 
+.SustainableEquation {
+    width: 100%;
 }
