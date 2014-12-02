@@ -55,7 +55,7 @@ body {
 .navigation li {
     font: bold 12px/18px sans-serif;
     display: inline-block;
-    width: 250px;
+    width: 15%;
     margin-right: -7px;
     position: relative;
     padding: 20px 0;
