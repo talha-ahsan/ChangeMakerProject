@@ -71,15 +71,15 @@ body {
     text-align: center;
 }
 .navigation li:hover {
-    background: #555;
+    background: #F4954F;
     color: #fff;
 }
 .navigation li ul {
     padding: 0;
     position: absolute;
     top: 58px;
-    left: 0;
-    width: inherit;
+    left: 0px;
+    width: 15%;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -101,7 +101,7 @@ body {
     text-shadow: 0 -1px 0 #000;
     z-index: 9999;
 }
-.navigation li ul li:hover { background: #666; }
+.navigation li ul li:hover { background: #F4954F; }
 
 .navigation li:hover ul {
     display: block;
@@ -161,6 +161,7 @@ h2 {
     height: 195px;
 }
 
+
 #LEAP {
     width: 245px;
     height: 183px;
@@ -186,3 +187,18 @@ h2 {
     text-align: left;
 }
 
+.FundingStructureImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+    height: 500px;
+}
+
+.ImplementationImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
