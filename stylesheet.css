@@ -66,7 +66,7 @@ body {
     margin-right: -7px;
     position: relative;
     padding: 20px 0;
-    background: darkgreen;
+    background: #7E9747;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -78,7 +78,7 @@ body {
     text-align: center;
 }
 .navigation li:hover {
-    background: #F4954F;
+    background: #F79646;
     color: #fff;
 }
 .navigation li ul {
@@ -100,7 +100,7 @@ body {
     -transition: opacity 0.2s;
 }
 .navigation li ul li {
-    background: #3e7733;
+    background: #7E9747;
     display: block;
     color: #fff;
     font-size: 15px;
@@ -108,7 +108,7 @@ body {
     text-shadow: 0 -1px 0 #000;
     z-index: 9999;
 }
-.navigation li ul li:hover { background: #F4954F; }
+.navigation li ul li:hover { background: #F79646; }
 
 .navigation li:hover ul {
     display: block;
@@ -117,7 +117,7 @@ body {
 }
 
 .JoinUs {
-    background-color: #d65341 !important;
+    background-color: #C3504D !important;
 }
 
 a {
@@ -215,6 +215,18 @@ h2 {
 }
 
 .SustainableEquation {
+    width: 100%;
+}
+
+#challengePic{
+    width: 100%;
+}
+
+#opportunityPic{
+    width: 100%;
+}
+
+#teamPic{
     width: 100%;
 }
 
