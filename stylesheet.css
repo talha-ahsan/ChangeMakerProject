@@ -22,13 +22,14 @@
     right: 30px;
 }
 
-.name {
+.name{
     display: inline;
     position: absolute;
     top: 70px;
     left: 260px;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Georgia', serif;
 }
+
 .header {
     padding: 10px 10px 10px 10px;
 }
@@ -55,7 +56,6 @@ body {
     font: bold 12px/18px sans-serif;
     display: inline-block;
     width: 15%;
-    min-width: 150px;
     margin-right: -7px;
     position: relative;
     padding: 20px 0;
@@ -200,9 +200,5 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 100%;
-}
-
-.toughtbook {
-    display: inline-block;
+    width: auto;
 }
