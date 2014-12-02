@@ -39,7 +39,9 @@ body {
     padding: 20px 50px 150px;
     font-size: 20px;
     text-align: center;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom, #FFFFFF 25%, #9BB95B 250%);
+    background-attachment: fixed;
+    bottom: 50px;
 }
 
 .nav {
