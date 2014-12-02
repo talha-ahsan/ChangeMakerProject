@@ -36,10 +36,12 @@
 
 body {
     font-family: Verdana, Tahoma, Helvetica, sans-serif;
-    padding: 20px 50px 150px;
+    padding: 20px 50px 150px 50px;
     font-size: 20px;
     text-align: center;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom, #FFFFFF 25%, #9BB95B 250%);
+    background-attachment: fixed;
+    bottom: 50px
 }
 
 .navigation {
@@ -103,7 +105,9 @@ body {
     text-shadow: 0 -1px 0 #000;
     z-index: 9999;
 }
-.navigation li ul li:hover { background: #F4954F; }
+.navigation li ul li:hover {
+    background: #F4954F;
+}
 
 .navigation li:hover ul {
     display: block;
