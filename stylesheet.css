@@ -173,6 +173,8 @@ h2 {
 .actualBody {
     position: relative;
     top: 180px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .ImageSlider {
