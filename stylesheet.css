@@ -5,6 +5,7 @@
     position: absolute;
     top: 10%;
     left: 30px;
+    border: none;
 }
 
 .languages {
@@ -20,13 +21,14 @@
     position: absolute;
     top: 19%;
     right: 30px;
+    border: none;
 }
 
 .name{
     display: inline;
     position: absolute;
     top: 17%;
-    left: 20%;
+    left: 24%;
     font-family: 'Maven Pro', sans-serif;
 }
 
@@ -187,7 +189,8 @@ h2 {
     /*margin-left: 15%;*/
     /*padding-right: 5%;*/
     /*padding-left: 5%;*/
-    /*background: white;*/
+    /*background: #eaf0dc;*/
+    /*border: #000000 solid 1px;*/
 }
 
 .ImageSlider {
@@ -245,4 +248,8 @@ h2 {
 
 #theSolution {
     width: 100%;
+}
+
+img {
+    border: #000000 solid 1px;
 }
