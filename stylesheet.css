@@ -133,7 +133,7 @@ a {
 
 .OurStory {
     border-left: none;
-    padding-left: auto;
+    margin-left: auto;
 }
 
 .feasibility, .innovation {
@@ -258,11 +258,21 @@ img {
     border: #000000 solid 1px;
 }
 
-.JoinUsImages{
-    align-content: center;
+.joinUsImage{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.donatelink{
-    color: lightblue;
+.joinUsGraph{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.donatelink:hover{
+    color: #45ADC7;
 
 }
