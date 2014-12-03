@@ -132,11 +132,13 @@ a {
 }
 
 .OurStory {
+    width: 100%;
     border-left: none;
     margin-left: auto;
 }
 
 .feasibility, .innovation {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -145,9 +147,10 @@ a {
 h2 {
     margin-top: 40px;
     padding-top: 30px;
-    padding-left: 30px;
     padding-bottom: 20px;
-    text-align: left;
+    color: #ffffff;
+    background: #7E9747;
+    text-align: center !important;
 }
 
 #PeanutButterProject {
@@ -191,7 +194,7 @@ h2 {
     /*padding-left: 5%;*/
     /*background: #eaf0dc;*/
     /*border: #000000 solid 1px;*/
-    margin-bottom: 18%;
+    margin-bottom: 21.5%;
 }
 
 .ImageSlider {
@@ -211,8 +214,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 740px;
-    height: 500px;
+    width: 100%;
 }
 
 .ImplementationImage {
@@ -255,6 +257,10 @@ h2 {
     width: 100%;
 }
 
+.managementStructure {
+    width: 100%;
+}
+
 img {
     border: #000000 solid 1px;
 }
@@ -292,7 +298,7 @@ img {
 }
 
 .facebook {
-    width: 15%;
-    height: 15%;
+    width: 13%;
+    height: 13%;
     border: none;
 }
