@@ -191,6 +191,7 @@ h2 {
     /*padding-left: 5%;*/
     /*background: #eaf0dc;*/
     /*border: #000000 solid 1px;*/
+    margin-bottom: 18%;
 }
 
 .ImageSlider {
@@ -274,4 +275,24 @@ img {
 
 .donatelink:hover{
     color: #45ADC7;
+}
+
+.footer {
+    background: #7E9747;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.twitter {
+    width: 12%;
+    height: 12%;
+    border: none;
+}
+
+.facebook {
+    width: 15%;
+    height: 15%;
+    border: none;
 }
