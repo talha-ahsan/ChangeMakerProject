@@ -3,6 +3,7 @@
     width: 200px;
     margin: 0 0 0 0 !important;
     position: absolute;
+    /*position: relative;*/
     top: 10%;
     left: 30px;
     border: none;
@@ -10,6 +11,7 @@
 
 .languages {
     position: absolute;
+    /*position: relative;*/
     right: 30px;
     top: 10%;
     padding-bottom: 20px;
@@ -19,6 +21,7 @@
     height: 70px;
     width: 160px;
     position: absolute;
+    /*position: relative;*/
     top: 19%;
     right: 30px;
     border: none;
@@ -27,6 +30,7 @@
 .name{
     display: inline;
     position: absolute;
+    /*position: relative;*/
     top: 17%;
     left: 24%;
     font-family: 'Maven Pro', sans-serif;
@@ -39,6 +43,7 @@
 
 .header {
     padding: 10px 10px 10px 10px;
+    /*position: absolute;*/
 }
 
 body {
